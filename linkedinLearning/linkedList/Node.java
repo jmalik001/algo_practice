@@ -1,4 +1,4 @@
-package linkedList;
+package linkedinLearning.linkedList;
 
 public class Node<E> {
  public E data;

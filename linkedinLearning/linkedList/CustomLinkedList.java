@@ -1,4 +1,4 @@
-package linkedList;
+package linkedinLearning.linkedList;
 public class CustomLinkedList<E> {
   Node<E> head;
   public boolean add(E d){

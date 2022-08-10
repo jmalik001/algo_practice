@@ -1,4 +1,4 @@
-package linkedList;
+package linkedinLearning.linkedList;
 
 // import java.util.LinkedList;
 
