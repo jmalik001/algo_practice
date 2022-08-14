@@ -9,7 +9,7 @@ public class CustomLinkedList<E> {
     Node<E> slowPointer = head;
     Node<E> fastPointer= head; // move twice
    Node<E> midPrev = null ; // just previous of slow node so including the middle node we can delete
-    if (head == null && head.next == null){
+    if (head == null || head.next == null){
     head = null;
     }
     while(fastPointer != null && fastPointer.next != null){
